@@ -9,9 +9,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class MemberApp {
     public static void main(String[] args) {
+//        자바 버전
 //        AppConfig appConfig = new AppConfig();
 //        MemberService memberService = appConfig.memberService();
 
+//        스프링 버전
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
 
