@@ -60,7 +60,7 @@ public class AppConfig {
 
 ### 예시 문제 1 - 회원 도메인
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 ```java
 package hello.core.member;
@@ -178,7 +178,7 @@ public class MemberApp {
 
 ### 예시 문제 2 - 주문과 할인 도메인
 
-![img.png](img.png)
+![img.png](images/img.png)
 
 ```java
 package hello.core.order;
