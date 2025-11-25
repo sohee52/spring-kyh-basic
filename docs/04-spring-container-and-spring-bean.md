@@ -17,17 +17,17 @@ ApplicationContext applicationContext =
  new AnnotationConfigApplicationContext(AppConfig.class);
 ```
 
-![img_5.png](img_5.png)
+![img_5.png](images/img_5.png)
 
 2. 스프링 빈 등록
 
-![img_6.png](img_6.png)
+![img_6.png](images/img_6.png)
 
 - 빈 이름은 메서드 이름을 사용한다.
 - 빈 이름을 직접 부여할 수도 있다. `@Bean(name="memberService2")`
 3. 스프링 빈 의존관계 설정
 
-![img_7.png](img_7.png)
+![img_7.png](images/img_7.png)
 
 - 스프링 컨테이너는 설정 정보를 참고해서 의존관계를 주입(DI)한다.
 
@@ -278,7 +278,7 @@ public class ApplicationContextExtendsFindTest {
 
 ## BeanFactory와 ApplicationContext
 
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
 
 - BeanFactory
     - 스프링 컨테이너의 최상위 인터페이스다.
@@ -290,7 +290,7 @@ public class ApplicationContextExtendsFindTest {
     - 애플리케이션을 개발할 때는 빈을 관리하고 조회하는 기능은 물론이고, 수 많은 부가기능이 필요하다.
 - ApplicatonContext가 제공하는 부가기능
 
-    ![img_4.png](img_4.png)
+    ![img_4.png](images/img_4.png)
 
     - 메시지소스를 활용한 국제화 기능
     - 환경변수
@@ -305,7 +305,7 @@ public class ApplicationContextExtendsFindTest {
 
 ## 스프링 빈 설정 메타 정보 - BeanDefinition
 
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
 - 스프링이 다양한 설정 형식을 지원할 수 있는 이유 :  `BeanDefinition` 이라는 추상화 덕분이다.
 - 스프링 컨테이너는 자바 코드인지, XML인지 몰라도 된다. 오직 BeanDefinition만 알면 된다.
